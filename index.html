@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div id="main_container">
+    <!-- left side of border -->
+    <div id="left">
+      <h2>Weather Today</h2>
+      <!-- <h4>Time</h4> -->
+      <div id="weather_summary">
+        <p id="temp">Temperature</p>
+        <p id="city">
+          Region
+        </p>
+        <p id="description"> Description </p>
+      </div>
+    </div>
+    <!-- right side of border -->
+
+    <div id="right">
+      <form action="">
+        <input type="text" name="city-name" id="city_name" placeholder="Location" required>
+        <input type="submit" id="search">
+      </form>
+      <h3>Weather Details</h3>
+      <div id="weather_details">
+        <div id="name_details">
+          <p>Cloudy</p>
+          <p>Humidity</p>
+          <p>Wind</p>
+        </div>
+        <div id="value_details">
+          <p id="clouds">86%</p>
+          <p id="humidity">62%</p>
+          <p id="wind">8km/h</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- bottom region with to do list -->
+  <div id="recommendations">
+    <form action="" id="tasksform">
+      <p>
+        What would you like to do today based on this weather conditions?
+        <input type="text" name="to-do" id="task">
+      </p> 
+      <input type="submit" value="add" id="add">
+    </form>
+    <ul id="list">
+      <p>Activities for the day</p>
+    </ul>
+  </div>
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>

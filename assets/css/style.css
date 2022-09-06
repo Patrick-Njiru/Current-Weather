@@ -1,0 +1,65 @@
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+#main_container { 
+  height: 60vh;
+  margin: 0 auto;
+  display: flex;
+  background-image: url('./../img/background.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#left {
+  width: 60vw;
+}
+#right {
+  width: 30vw;
+  padding: 50px 30px;
+  border-left: 2px rgb(169, 167, 167) solid;
+}
+#left h2 {
+  height: 40vh;
+  text-align: center;
+}
+h4 {
+  height: 20vh;
+  text-align: center;
+}
+#weather_summary {
+  display: flex;
+  width: 50vw;
+  height: 40vh;
+  justify-content: space-evenly;
+}
+#weather_details {
+  display: flex;
+  justify-content: space-between;
+}
+input#search, #add {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+form {
+  margin-bottom: 50px;
+}
+#recommendations {
+  margin: 50px;
+  text-align: center;
+  color: gold;
+} 
+ul {
+  
+  text-align: left;
+}
+ul p {
+  font-size: larger;
+  color: white;
+}
+
+/* #city, #clouds, #description, #temp, #humidity, #wind */
+p {
+  font-size: larger;
+}
